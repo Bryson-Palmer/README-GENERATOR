@@ -112,3 +112,5 @@ You are required to submit the following for review:
 ---
 
 © 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+attributions: https://github.com/SBoudrias/Inquirer.js/tree/master/packages/inquirer/examples

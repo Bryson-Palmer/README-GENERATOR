@@ -1,5 +1,5 @@
 {
-  "name": "README-GENERATOR",
+  "name": "readme-generator",
   "version": "1.0.0",
   "description": "This is a simple README.MD generator using node.",
   "main": "index.js",
