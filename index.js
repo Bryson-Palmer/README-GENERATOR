@@ -1,5 +1,12 @@
+const inquirer = require('inquirer');
+const fs = require('fs');
+const util = require('util');
+
+const writeMDFileAsync = util.promisify(fs.writeFile);
 // array of questions for user
 const questions = [
+
+    
 
 ];
 
