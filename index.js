@@ -27,11 +27,11 @@ const questions = () => {
             },
         },
 
-        {
-            type: 'input',
-            name: 'title',
-            messages: 'What is the title of your project?',
-        },
+        // {
+        //     type: 'input',
+        //     name: 'title',
+        //     messages: 'What is the title of your project?',
+        // },
 
     ]);
 };
