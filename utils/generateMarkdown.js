@@ -4,9 +4,10 @@ function generateMarkdown( data ) {
   return `## <a id='back-to-top' > </a>
   # ${data.title}
   ${data.description}
+  ${data.badge}
   ________________________________________
 
-  ## [✔️] Table of Contents
+  ## Table of Contents
   [Criteria](#criteria) </br>
   [Links](#links) </br>
   [Screenshot](#screenshot) </br>
@@ -19,15 +20,12 @@ function generateMarkdown( data ) {
   [Questions](#questions) </br>
 
   ## <a id='criteria'></a> 💼 Criteria
-  ```
   ${data.criteria}
-  ```
   ________________________________________
 
   ## <a id='links'></a> Links
-  [**Repository** on **GitHub**](${data.projectRepo})
-  [Live **URL** for **${data.title}**](${data.liveLink})
-  </br>
+  [**Repository** on **GitHub**](${data.projectRepo}) </br>
+  [Live **URL** for **${data.title}**](${data.liveLink}) </br>
   ________________________________________
 
   ## 📸 <a id='screenshot'></a> Screenshot
@@ -42,7 +40,7 @@ function generateMarkdown( data ) {
   ## <a id='usage'></a> Usage Information
   * ${data.usage}
 
-  ## <a id='license></a> License
+  ## <a id='license'></a> License
   * ${data.license}
 
   ## <a id='contributing'></a> Contribution Guidelines
@@ -52,8 +50,9 @@ function generateMarkdown( data ) {
   * ${data.tests}
 
   ## <a id='questions'></a> 📡 Questions? Contact me at:
-  [My GitHub](${data.gitHub})
-  [My Email](${data.email})
+  If you have any questions, please contact me at:
+  [My GitHub](${data.gitHub}) </br>
+  [My Email](${data.email}) </br>
 
   [Back to Top](#back-to-top)
 `;
