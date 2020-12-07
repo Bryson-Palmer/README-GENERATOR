@@ -73,15 +73,32 @@ const questions = () => {
         // },
 
         {
+            type: 'input',
+            name: 'year',
+            message: '\n \nPlease enter the year in this format `yyyy`.',
+            default: '2020',
+        },
+
+        {
+            type: 'input',
+            name: 'name',
+            message: '\n \nPlease enter your full name you want to see on the license.',
+            default: 'John Doe',
+        },
+
+        {
             // List
             type: 'list',
             name: 'license',
             message: '\n \nPlease pick a license from the following options.',
             choices: ['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'Choose One Later'],
             validate: (data) => {
+
+                // ${data.notice} is located in generateMarkdown.js file line: 48
+                // Currently not connected
                 if (Choices == 'Apache License 2.0') {
                     return `${license}\n
-                    Copyright [yyyy] [name of copyright owner]
+                    Copyright ${data.year} ${data.name}
 
                     Licensed under the Apache License, Version 2.0 (the "License");
                     you may not use this file except in compliance with the License.
@@ -97,7 +114,7 @@ const questions = () => {
                 
                 } else if (Choices == 'GNU General Public License v3.0') {
                     return `${license}\n
-                    Copyright (C) <year>  <name of author>
+                    Copyright (C) ${data.year}  ${data.name}
 
                     This program is free software: you can redistribute it and/or modify
                     it under the terms of the GNU General Public License as published by
@@ -114,7 +131,7 @@ const questions = () => {
                 
                 } else if (Choices == 'MIT License') {
                     return `${license}\n
-                    Copyright <YEAR> <COPYRIGHT HOLDER>
+                    Copyright ${data.year} ${data.name}
 
                     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
                     
