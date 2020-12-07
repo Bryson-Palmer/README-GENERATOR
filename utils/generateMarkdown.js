@@ -19,40 +19,45 @@ function generateMarkdown( data ) {
   [Tests](#tests) </br>
   [Questions](#questions) </br>
 
-  ## <a id='criteria'></a> 💼 Criteria
+  ## 💼 <a id='criteria'></a> Criteria
+  \`\`\`
   ${data.criteria}
+  \`\`\`
   ________________________________________
 
-  ## <a id='links'></a> Links
-  [**Repository** on **GitHub**](${data.projectRepo}) </br>
-  [Live **URL** for **${data.title}**](${data.liveLink}) </br>
+  ## 🔗 <a id='links'></a> Links
+  Link to [**GitHub**](${data.projectRepo}) </br>
+  Live **URL** for [**${data.title}**](${data.liveLink}) </br>
   ________________________________________
 
   ## 📸 <a id='screenshot'></a> Screenshot
-  ![screenshot](${data.screenshot})
+  * ![screenshot](${data.screenshot})
 
-  ## <a id='future-development'></a> 🔍 Future Development
+  ## 🔍 <a id='future-development'></a> Future Development
   * ${data.futureDevelopment}
 
-  ## <a id='installation'></a> Installation Instructions
+  ## 🔧 <a id='installation'></a> Installation Instructions
   * ${data.installation}
 
-  ## <a id='usage'></a> Usage Information
+  ## ⚙️ <a id='usage'></a> Usage Information
   * ${data.usage}
 
-  ## <a id='license'></a> License
-  * ${data.license}
+  ## 🏆 <a id='license'></a> License
+  ${data.license}
+  \`\`\`
+  ${data.notice}
+  \`\`\`
 
-  ## <a id='contributing'></a> Contribution Guidelines
+  ## 🏛️ <a id='contributing'></a> Contribution Guidelines
   * ${data.contributing}
 
-  ## <a id='tests'></a> Test Instructions
+  ## ✅ <a id='tests'></a> Test Instructions
   * ${data.tests}
 
-  ## <a id='questions'></a> 📡 Questions? Contact me at:
-  If you have any questions, please contact me at:
-  [My GitHub](${data.gitHub}) </br>
-  [My Email](${data.email}) </br>
+  ## 📡 <a id='questions'></a> Questions?
+  If you have any questions, please contact me at: </br>
+  * My GitHub: [${data.gitHub}](https://github.com/${data.gitHub}) </br>
+  * My Email: [${data.email}](mailto:${data.email}) </br>
 
   [Back to Top](#back-to-top)
 `;
