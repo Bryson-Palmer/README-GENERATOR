@@ -1,9 +1,8 @@
 ## <a id='back-to-top' > </a>
-  # So Cool!
+  # A Tribute To The Best Title ever!
 
-This is the best description ever!
 
-  undefined
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
   ________________________________________
 
   ## Table of Contents
@@ -26,7 +25,7 @@ This is the best description ever!
 
   ## 🔗 <a id='links'></a> Links
   Link to [**GitHub**](undefined) </br>
-  Live **URL** for [**So Cool!**](undefined) </br>
+  Live **URL** for [**A Tribute To The Best Title ever!**](undefined) </br>
   ________________________________________
 
   ## 📸 <a id='screenshot'></a> Screenshot
@@ -42,9 +41,23 @@ This is the best description ever!
   * undefined
 
   ## 🏆 <a id='license'></a> License
-  MIT License
+  GNU General Public License v3.0
+
+  Copyright 2020  John Doe
+
   ```
-  undefined
+  This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
   ```
 
   ## 🏛️ <a id='contributing'></a> Contribution Guidelines
@@ -54,8 +67,8 @@ This is the best description ever!
   * undefined
 
   ## 📡 <a id='questions'></a> Questions?
-  If you have any questions, please contact me at: </br>
+  If you have any questions or would like to follow my development, please contact me at: </br>
   * My GitHub: [undefined](https://github.com/undefined) </br>
   * My Email: [undefined](mailto:undefined) </br>
 
-  [⬆️ Back to Top](#back-to-top)
+  [Back to Top](#back-to-top)
