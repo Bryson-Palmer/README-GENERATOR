@@ -2,9 +2,8 @@
 function generateMarkdown( data ) {
 
   return `## <a id='back-to-top' > </a>
-  # ${data.title}
+  # ${data.title}   ${licnseBadge( data.license )}
   ${data.description}
-  ${licnseBadge( data.license )}
   ________________________________________
 
   ## Table of Contents
@@ -44,7 +43,7 @@ function generateMarkdown( data ) {
 
   ## 🏆 <a id='license'></a> License
   ${data.license}\n
-  Copyright ${data.year}  ${data.name}
+  Copyright ${data.year}   ${data.name}
 
   \`\`\`
   ${licenseText(data.license)}
