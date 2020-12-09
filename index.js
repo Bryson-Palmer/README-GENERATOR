@@ -134,7 +134,7 @@ const init = async () => {
 
         const markDown = generateMarkdown( data );
         
-        await writeMDFileAsync( 'README.MD', markDown );
+        await writeMDFileAsync( 'README3000.MD', markDown );
 
         console.log( '\nSuccess is granted!\n-------------------\n \nYour new README.MD file\n \nis located in your root folder.\n \nGoodbye...\n \n********************************************************\n');
     } catch ( err ) {
