@@ -30,16 +30,16 @@ function generateMarkdown( data ) {
   ________________________________________
 
   ## 📸 <a id='screenshot'></a> Screenshot
-  * ![screenshot](${data.screenshot})
+  ![screenshot](${data.screenshot})
 
   ## 🔍 <a id='future-development'></a> Future Development
-  * ${data.futureDevelopment}
+  ${data.futureDevelopment}
 
   ## 🔧 <a id='installation'></a> Installation Instructions
-  * ${data.installation}
+  ${data.installation}
 
   ## ⚙️ <a id='usage'></a> Usage Information
-  * ${data.usage}
+  ${data.usage}
 
   ## 🏆 <a id='license'></a> License
   ${data.license}\n
@@ -50,10 +50,10 @@ function generateMarkdown( data ) {
   \`\`\`
 
   ## 🏛️ <a id='contributing'></a> Contribution Guidelines
-  * ${data.contributing}
+  ${data.contributing}
 
   ## ✅ <a id='tests'></a> Test Instructions
-  * ${data.tests}
+  ${data.tests}
 
   ## 📡 <a id='questions'></a> Questions?
   If you have any questions or would like to follow my development, please contact me at: </br>
