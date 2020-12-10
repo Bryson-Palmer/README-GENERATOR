@@ -3,7 +3,7 @@
 
 This is a simple program that dynamically generates a README.MD file. You can either answer all the prompts fully and have a complete README file produced or you can enter through the prompts and create a template to fill in at a later time. There are 16 prompts for the user to answer. This is all built with `javascript` and running in the  `node.js` environment. This application is dependent on using the **inquirer** and `fs` npms. This program includes dynamically generated license badges, icons, clickable table of contents, and links. Try it out and see if you can't save yourself some time. Now you can spend that much more time coding!!!
 
-  ________________________________________
+  
 
   ## Table of Contents
   [Criteria](#criteria) </br>
@@ -37,12 +37,12 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
   ```
-  ________________________________________
+  
 
   ## 🔗 <a id='links'></a> Links
   Link to [**GitHub**](https://github.com/Bryson-Palmer/README-GENERATOR.git) </br>
   Live **URL** for [**README3000**](https://drive.google.com/file/d/1M4HJI3aRnQ6CG1QeC5LFFuKOqxt4TpwQ/preview) </br>
-  ________________________________________
+  
 
   ## 📸 <a id='screenshot'></a> Screenshot
   ![screenshot](./assets/Screenshot.png)

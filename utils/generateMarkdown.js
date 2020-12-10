@@ -4,7 +4,7 @@ function generateMarkdown( data ) {
   return `## <a id='back-to-top' > </a>
   # ${data.title}   ${licnseBadge( data.license )}
   ${data.description}
-  ________________________________________
+  
 
   ## Table of Contents
   [Criteria](#criteria) </br>
@@ -22,12 +22,12 @@ function generateMarkdown( data ) {
   \`\`\`
   ${data.criteria}
   \`\`\`
-  ________________________________________
+  
 
   ## 🔗 <a id='links'></a> Links
   Link to [**GitHub**](${data.projectRepo}) </br>
   Live **URL** for [**${data.title}**](${data.liveLink}) </br>
-  ________________________________________
+  
 
   ## 📸 <a id='screenshot'></a> Screenshot
   ![screenshot](${data.screenshot})
@@ -46,7 +46,7 @@ function generateMarkdown( data ) {
   Copyright ${data.year}   ${data.name}
 
   \`\`\`
-  ${licenseText(data.license)}
+  ${licenseText( data.license )}
   \`\`\`
 
   ## 🏛️ <a id='contributing'></a> Contribution Guidelines
