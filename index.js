@@ -24,17 +24,10 @@ const questions = () => {
         },
 
         {
-            type: 'editor',
-            name: 'criteria',
-            message: '\n \nAdd the criteria you had to follow for this project.',
-            default: '<Press `A` then press `return` to begin typing the criteria. Press `esc` then press `:x!` to return to node. When this gets loaded into the README file, delete these instructions.>',
-        },
-
-        {
             type: 'input',
             name: 'projectRepo',
-            message: '\n \nAdd the link to the Git Hub repository.',
-            default: 'Add a link to your Git Hub repo here.',
+            message: '\n \nWhat is the Git Hub repository name?',
+            default: 'Add the Git Hub repo name here.',
         },
 
         {
@@ -113,7 +106,7 @@ const questions = () => {
             type: 'input',
             name: 'gitHub',
             message: '\n \nAdd a link to your Git Hub by typing in your user name here.',
-            default: 'Add a link to your Git Hub here.',
+            default: 'Add your Git Hub user name here.',
         },
 
         {

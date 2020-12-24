@@ -3,43 +3,65 @@ function generateMarkdown( data ) {
 
   return `## <a id='back-to-top' > </a>
   # ${data.title}   ${licnseBadge( data.license )}
+
+  <p>
+    <img src="https://img.shields.io/github/languages/top/${data.gitHub}/${data.projectRepo}"  />
+    <img src="https://img.shields.io/github/repo-size/${data.gitHub}/${data.projectRepo}" />
+    <img src="https://img.shields.io/github/issues/${data.gitHub}/${data.projectRepo}" />
+    <img src="https://img.shields.io/github/last-commit/${data.gitHub}/${data.projectRepo}" >
+</p>
+<p>
+    <a href="https://github.com/Bryson-Palmer">
+        <img alt="Github: Bryson-Palmer" src="https://img.shields.io/github/followers/Bryson-Palmer ?style=social" target="_blank" />
+    </a>
+</p>
+
   ${data.description}
   
 
   ## Table of Contents
-  [Criteria](#criteria) </br>
   [Links](#links) </br>
   [Screenshot](#screenshot) </br>
-  [Future Development](#future-development) </br>
   [Installation](#installation) </br>
   [Usage](#usage) </br>
-  [License](#license) </br>
+  [Future Development](#future-development) </br>
   [Contributing](#contributing) </br>
   [Tests](#tests) </br>
+  [License](#license) </br>
   [Questions](#questions) </br>
-
-  ## 💼 <a id='criteria'></a> Criteria
-  \`\`\`
-  ${data.criteria}
-  \`\`\`
   
+  ## Technologies Used
+
+<p>
+  <img src="https://img.shields.io/badge/Javascript-yellow" />
+  <img src="https://img.shields.io/badge/HTML-orange" />
+  <img src="https://img.shields.io/badge/Boostrap-informational" />
+  <img src="https://img.shields.io/badge/-node.js-9cf" />
+  <img src="https://img.shields.io/badge/-inquirer-greenBright" >
+</p>
 
   ## 🔗 <a id='links'></a> Links
-  Link to [**GitHub**](${data.projectRepo}) </br>
-  Live **URL** for [**${data.title}**](${data.liveLink}) </br>
+  [**GitHub**](https://github.com/${data.gitHub}/${data.projectRepo}) </br>
+  [**${data.title}**](${data.liveLink}) </br>
   
 
   ## 📸 <a id='screenshot'></a> Screenshot
-  ![screenshot](${data.screenshot})
-
-  ## 🔍 <a id='future-development'></a> Future Development
-  ${data.futureDevelopment}
+  ![screenshot](${data.screenshot}) </br>
 
   ## 🔧 <a id='installation'></a> Installation Instructions
   ${data.installation}
 
-  ## ⚙️ <a id='usage'></a> Usage Information
+  ## 💼  <a id='usage'></a> Usage Information
   ${data.usage}
+
+  ## 🔍 <a id='future-development'></a> Future Development
+  ${data.futureDevelopment}
+
+  ## 🏛️ <a id='contributing'></a> Contribution Guidelines
+  ${data.contributing}
+
+  ## ✅ <a id='tests'></a> Test Instructions
+  ${data.tests}
 
   ## 🏆 <a id='license'></a> License
   ${data.license}\n
@@ -49,11 +71,6 @@ function generateMarkdown( data ) {
   ${licenseText( data.license )}
   \`\`\`
 
-  ## 🏛️ <a id='contributing'></a> Contribution Guidelines
-  ${data.contributing}
-
-  ## ✅ <a id='tests'></a> Test Instructions
-  ${data.tests}
 
   ## 📡 <a id='questions'></a> Questions?
   If you have any questions or would like to follow my development, please contact me at: </br>

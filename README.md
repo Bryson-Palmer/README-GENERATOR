@@ -1,6 +1,7 @@
 ## <a id='back-to-top' > </a>
   # README3000   [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
+
 This is a simple program that dynamically generates a README.MD file. You can either answer all the prompts fully and have a complete README file produced or you can enter through the prompts and create a template to fill in at a later time. There are 16 prompts for the user to answer. This is all built with `javascript` and running in the  `node.js` environment. This application is dependent on using the **inquirer** and `fs` npms. This program includes dynamically generated license badges, icons, clickable table of contents, and links. Try it out and see if you can't save yourself some time. Now you can spend that much more time coding!!!
 
   
@@ -37,7 +38,6 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
   ```
-  
 
   ## 🔗 <a id='links'></a> Links
   Link to [**GitHub**](https://github.com/Bryson-Palmer/README-GENERATOR.git) </br>
