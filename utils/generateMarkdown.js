@@ -12,7 +12,7 @@ function generateMarkdown( data ) {
 </p>
 <p>
     <a href="https://github.com/Bryson-Palmer">
-        <img alt="Github: Bryson-Palmer" src="https://img.shields.io/github/followers/Bryson-Palmer ?style=social" target="_blank" />
+        <img alt="Github: ${data.github}" src="https://img.shields.io/github/followers/${data.github} ?style=social" target="_blank" />
     </a>
 </p>
 
